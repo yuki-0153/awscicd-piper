@@ -3,6 +3,6 @@ yum install -y httpd python-pip
 systemctl start httpd
 yum install -y mod_wsgi
 pip install flask
-rm /etc/httpd/conf.d/myweb.conf
-rm /var/www/wsgi.py
-rm /var/www/app.py
+rm -f /etc/httpd/conf.d/myweb.conf
+rm -f /var/www/wsgi.py
+rm -f /var/www/app.py

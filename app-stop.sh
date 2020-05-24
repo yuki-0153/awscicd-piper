@@ -1,5 +1,5 @@
 #!/bin/bash
 systemctl stop httpd
-rm /etc/httpd/conf.d/myweb.conf
-rm /var/www/wsgi.py
-rm /var/www/app.py
+rm -f /etc/httpd/conf.d/myweb.conf
+rm -f /var/www/wsgi.py
+rm -f /var/www/app.py
